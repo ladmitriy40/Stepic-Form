@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Общая информация</legend>
+            <div>
+                <p>
+                    <label for="lastname">Фамилия</label>
+                    <input id="lastname" type="text" name="lastname" placeholder="Иванов">
+                </p>
+                <p>
+                    <label for="firstname">Имя</label>
+                    <input id="firstname" type="text" name="firstname" placeholder="Иван">
+                </p>
+                <p>
+                    <label for="patronymic">Отчество</label>
+                    <input id="patronymic" type="text" name="patronymic" placeholder="Иванович">
+                </p>
+                <p>
+                    <label for="email">email</label>
+                    <input id="email" type="email" name="email" placeholder="mail@mail.ru">
+                </p>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Пол</legend>
+            <div>
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="male">М</label>
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="female">Ж</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Хобби</legend>
+            <div>
+                <input type="checkbox" id="drawing" name="drawing" value="drawing">
+                <label for="drawing">Рисование</label>
+                <input type="checkbox" id="reading" name="reading" value="reading">
+                <label for="reading">Чтение</label>
+                <input type="checkbox" id="knitting" name="knitting" value="knitting">
+                <label for="knitting">Вязание</label>
+                <input type="checkbox" id="cooking" name="cooking" value="cooking">
+                <label for="cooking">Кулинария</label>
+        </fieldset>
+            <input type="submit">
+            <input type="reset" value="Очистить">
+            </div>
+    </form>
+</body>
+</html>
