@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS Stepik/Solution.css">
     <title>Форма</title>
 </head>
 <body>
+    <h1 class="header">Заполните фому,чтобы мы узнали о вас немного больше</h1>
     <form action="">
         <fieldset>
             <legend>Общая информация</legend>
-            <div>
-                <p>
+            <div class="FIOmail">
                     <label for="lastname">Фамилия</label>
                     <input id="lastname" type="text" name="lastname" placeholder="Иванов">
-                </p>
-                <p>
+                </div>
+                <div class="FIOmail">
                     <label for="firstname">Имя</label>
                     <input id="firstname" type="text" name="firstname" placeholder="Иван">
-                </p>
-                <p>
+                </div>
+                <div class="FIOmail">
                     <label for="patronymic">Отчество</label>
                     <input id="patronymic" type="text" name="patronymic" placeholder="Иванович">
-                </p>
-                <p>
+                </div>
+                <div class="FIOmail1">
                     <label for="email">email</label>
                     <input id="email" type="email" name="email" placeholder="mail@mail.ru">
-                </p>
             </div>
         </fieldset>
         <fieldset>
@@ -51,8 +51,11 @@
                 <label for="cooking">Кулинария</label>
             </div>
         </fieldset>
+        <div class="buttons">
         <input type="submit">
         <input type="reset" value="Очистить">
+        </div>
+        </form>
     </form>
 </body>
 </html>
